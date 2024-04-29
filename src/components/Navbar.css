@@ -1,0 +1,24 @@
+#navbar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+
+
+  background-image: url('D:\Downloads\final-project-MiguelNievesH-main\final-project-MiguelNievesH-main\NetflyGenshin\src\assets\navbar img.jpeg');
+  background-size: cover; /* This will make sure the image covers the entire navbar */
+  background-repeat: no-repeat;
+}
+
+#navbar-right {
+  display: flex;
+}
+
+#navbar input {
+  max-width: 30%;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}

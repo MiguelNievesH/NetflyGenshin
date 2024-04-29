@@ -1,0 +1,65 @@
+body::before {
+  content: "";
+  background-image: url('D:\Downloads\final-project-MiguelNievesH-main\final-project-MiguelNievesH-main\NetflyGenshin\src\assets\Stars-Shining-Depths-official-wallpaper-genshin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7; /* Adjust as needed */
+  z-index: -1; /* Ensures the image is behind your content */
+}
+
+
+.link {
+  margin: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.link:visited {
+  color: rgb(255, 255, 255);
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 90%;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+input:nth-child(2) {
+  padding-bottom: 70px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.icons {
+  margin-right: 10px;
+}

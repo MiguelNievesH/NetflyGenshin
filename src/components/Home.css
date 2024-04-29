@@ -1,0 +1,20 @@
+#button-bar {
+  margin: 10px 10px 10px 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.post-card {
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+   opacity: 0.7;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.post-card p {
+  margin: 15px 0;
+  color: rgb(255, 255, 255);
+}
